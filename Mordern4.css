@@ -5,8 +5,7 @@
   box-sizing: border-box;
  }
 body{
-/*  border: 5px rgb(255, 255, 255) solid;
- */  margin-bottom: 1000px;
+ margin-bottom: 10vw;
   overflow-x: hidden;
 }
 .hero1{
@@ -23,17 +22,14 @@ background-size: cover;
   filter: none;
 background-image: linear-gradient(-10deg, transparent, #ffd00000), url(Pics/3.jpg);
 }
-/* .home:hover{
-  transform: scale(1.07);
-}
- */.home{
+.home{
   transition: all .5s ease;
   width: 95%;
   height: 95%;
   background-color: #af5e0156;
  backdrop-filter: blur(1rem);
   border: #eeeeee62 double 1px;
-  border-radius: 25px;
+  border-radius: 2vw;
 }
 .logo{
   margin-right: 100px;
